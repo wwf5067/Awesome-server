@@ -17,6 +17,7 @@
 `https://github.com/Earth-Online/efb-qq-coolq-docker`
 ### 3.3 Config
 `cat ~/.ehforwarderbot/profiles/default/milkice.qq/config.yaml `
+
 Client: CoolQ
 CoolQ:
         type: HTTP
@@ -25,7 +26,9 @@ CoolQ:
         host: 127.0.0.1
         port: 8000
         is_pro: true
+
 `run command`
+
 docker run -ti --rm --name cqhttp-test --net="host" \
      -v $(pwd)/coolq:/home/user/coolq      \
      -p 9000:9000                          \
