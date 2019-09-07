@@ -18,14 +18,14 @@
 ### 3.3 Config
 `cat ~/.ehforwarderbot/profiles/default/milkice.qq/config.yaml `
 
-Client: CoolQ
-CoolQ:
-        type: HTTP
-        access_token: ac0f790e1fb74ebcaf45da77a6f9de47
-        api_root: http://127.0.0.1:5700/
-        host: 127.0.0.1
-        port: 8000
-        is_pro: true
+Client: CoolQ \
+CoolQ: \
+        type: HTTP \
+        access_token: ac0f790e1fb74ebcaf45da77a6f9de47 \
+        api_root: http://127.0.0.1:5700/ \
+        host: 127.0.0.1 \
+        port: 8000 \
+        is_pro: true \
 
 `run command`
 
