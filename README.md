@@ -25,7 +25,7 @@ CoolQ: \
         api_root: http://127.0.0.1:5700/ \
         host: 127.0.0.1 \
         port: 8000 \
-        is_pro: true \
+        is_pro: true 
 
 `run command`
 
